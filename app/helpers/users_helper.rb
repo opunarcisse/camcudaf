@@ -1,0 +1,10 @@
+module UsersHelper
+ def display_member_name
+      @user = User.find(params[:id])
+  if @user.nil?
+   return "You are not a user"
+   else
+   return @user.first_name + " " + @user.last_name
+   end
+ end
+end

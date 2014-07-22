@@ -1,0 +1,83 @@
+@import "bootstrap";
+
+#container {
+  width: 55%;
+  margin: 20px auto;
+  background-color: #FFF;
+  padding: 20px 60px;
+  border: none 0px #333333;
+
+}
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#flash_notice, #flash_error {
+  padding: 5px 8px;
+  margin: 10px 0;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+}
+
+#flash_notice {
+  background-color: #0404B4;
+  border: solid 1px blue;
+}
+
+#flash_error {
+  background-color: #B40404;
+  border: solid 1px red;
+}
+
+.fieldWithErrors {
+  display: inline;
+}
+
+#errorExplanation, #error_explanation {
+  border: 2px solid #CF0000;
+  padding: 0px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#content
+{
+  padding: 14px 50px;
+  border: solid 0px #999;
+  margin: 5px 50px;
+}
+#footer
+{
+background-color: #999;
+padding: 5px;
+margin: 40px 5px;
+}
+
+#footer p
+{
+  text-align: center;
+  color: white;
+}
+
+
+.field input {
+
+ height: 35px;
+}
+

@@ -1,0 +1,14 @@
+
+
+ 
+
+
+<% for comment in @comments do %>
+
+
+  
+  
+
+<% end %>
+
+  <%= link_to 'add a new comment', new_post_comment_path(@post)  if logged_in? %>

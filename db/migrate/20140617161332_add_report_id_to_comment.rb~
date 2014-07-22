@@ -1,0 +1,5 @@
+class AddReportIdToComment < ActiveRecord::Migration
+  def change
+    add_column :comments, :report_id, :integer, references: :reports
+  end
+end

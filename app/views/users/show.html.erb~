@@ -1,0 +1,58 @@
+
+<h1>   <%= "Member : #{@user.email_address}" %>    </h1>
+
+
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @user.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @user.last_name %>
+</p>
+
+<p>
+  <strong>Gender:</strong>
+  <%= @user.gender %>
+</p>
+
+<p>
+  <strong>Email address:</strong>
+  <%= @user.email_address %>
+</p>
+
+<p>
+  <strong>Registered on:</strong>
+  <%= @user.registered_on %>
+</p>
+
+<p>
+  <strong>Salt:</strong>
+  <%= @user.salt %>
+</p>
+
+<p>
+  <strong>Password:</strong>
+  <%= @user.password %>
+</p>
+
+<p>
+  <strong>Confirm password:</strong>
+  <%= @user.confirm_password %>
+</p>
+
+<p>
+  <strong>Hashed password:</strong>
+  <%= @user.hashed_password %>
+</p>
+
+<p>
+  <strong>Status update:</strong>
+  <%= @user.status_update %>
+</p>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
